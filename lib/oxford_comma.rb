@@ -8,10 +8,10 @@ def oxford_comma(array)
     listed.pop
     listed.delete_at(-2)
     listed.insert(" and ", -2)
-    puts listed
+    listed.join
   elsif array.length == 2
     array.join(" and ")
   else
-    array.to_s
+    array.join
   end
 end
