@@ -5,9 +5,9 @@ def oxford_comma(array)
       listed << x
       listed << ", "
     end
-    array.pop
-    array.delete_at(-2)
-    array.insert(" and ", -2)
+    listed.pop
+    listed.delete_at(-2)
+    listed.insert(" and ", -2)
     puts listed
   elsif array.length == 2
     array.join(" and ")
