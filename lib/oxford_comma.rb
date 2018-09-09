@@ -5,5 +5,5 @@ def oxford_comma(array)
     listed << ", "
   end
   array.pop
-  array.
+  array.delete_at_
 end
