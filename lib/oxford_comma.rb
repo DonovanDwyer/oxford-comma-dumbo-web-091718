@@ -7,6 +7,7 @@ def oxford_comma(array)
     end
     array.pop
     array.delete_at(-2)
+    array.insert(" and ", -2)
     puts listed
   elsif array.length == 2
     array.join(" and ")
