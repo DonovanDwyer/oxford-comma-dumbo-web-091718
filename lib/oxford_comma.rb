@@ -1,9 +1,9 @@
 def oxford_comma(array)
-case array
-when array.length == 2
-  array.join(" and ")
-when array.length >= 3
-  array.join(", ")
-  
-  
+  listed = []
+  array.each do |x|
+    listed << x
+    listed << ", "
+  end
+  array.pop
+  array.
 end
